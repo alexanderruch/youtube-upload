@@ -68,7 +68,7 @@ $ youtube-upload \
   --description="A.S. Mutter plays Beethoven" \
   --category=Music \
   --tags="mutter, beethoven" \
-  --recording-date="2011-03-10T15:32:17.0Z" \
+  --recording-date="2016-10-22T13:30:00.0000000+02:00" \
   --default-language="en" \
   --default-audio-language="en" \
   --client-secrets=my_client_secrets.json \
@@ -80,7 +80,7 @@ tx2Zb-145Yz
 *Other extra medata available :* 
  ```
  --privacy (public | unlisted | private)  
- --publish-at (YYYY-MM-DDThh:mm:ss.sZ)  
+ --publish-at (YYYY-MM-DDThh:mm:ss.0000000+02:00)  
  --location (latitude=VAL,longitude=VAL[,altitude=VAL])  
  --thumbnail (string)  
  ```
